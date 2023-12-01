@@ -1,0 +1,94 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  background-color: rgba(65, 105, 225, 0.735);
+  padding: 1px;
+  color: antiquewhite;
+  text-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
+
+.nav {
+  display: flex;
+  background-color: rgba(244, 164, 180, 0.591);
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.nav a:hover {
+  background-color: rosybrown;
+  color: wheat;
+}
+
+.row {
+  display: flex;
+}
+.main {
+  flex: 70%;
+  padding: 10px;
+  background-color: rgba(65, 105, 225, 0.183);
+}
+.side {
+  flex: 30%;
+  padding: 10px;
+  background-color:rgba(65, 105, 225, 0.183);
+  color: rgb(155, 152, 152);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.row::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: rgba(65, 105, 225, 0.578);
+  color: whitesmoke;
+}
+.body{
+  background-color:rgba(65, 105, 225, 0.183);
+}
+
+/* Add this code to your CSS file */
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Stack elements vertically on small screens */
+  }
+
+  .main,
+  .side {
+    flex: 100%; /* Make both main and side sections take the full width */
+  }
+
+  .nav {
+    flex-direction: column; /* Stack navigation links vertically on small screens */
+    align-items: center; /* Center align navigation links */
+  }
+
+  .nav a {
+    padding: 10px 0; /* Adjust padding for better spacing on small screens */
+  }
+
+  .footer {
+    text-align: center; /* Center-align the footer content */
+  }
+}
+
+/* For screens with a maximum width of 480px (even smaller screens) */
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 24px; /* Decrease the font size of the header text */
+  }
+}

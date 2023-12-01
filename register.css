@@ -1,0 +1,50 @@
+.form{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 9%;
+    padding: 20px;
+    text-align: center;
+}
+.form{
+    background-color: rgb(218, 183, 140);
+}
+
+body{
+    background-color: rgba(65, 105, 225, 0.74);
+}
+.log{
+    color: white;
+    margin-top: 40px;
+}
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .form {
+      margin: 5%; /* Decrease the margin for better spacing on small screens */
+      padding: 10px; /* Decrease the padding for better spacing on small screens */
+    }
+  
+    .log {
+      font-size: 18px; /* Decrease the font size for better readability on small screens */
+    }
+  
+    .header h1 {
+      font-size: 24px; /* Decrease the font size of the header text */
+    }
+  }
+  
+  /* For screens with a maximum width of 480px (even smaller screens) */
+  @media (max-width: 480px) {
+    .nav {
+      flex-direction: column; /* Stack navigation links vertically on small screens */
+      align-items: center; /* Center-align navigation links */
+    }
+  
+    .nav a {
+      padding: 10px 0; /* Adjust padding for better spacing on small screens */
+    }
+  
+    .footer {
+      text-align: center; /* Center-align the footer content */
+    }
+  }
+  

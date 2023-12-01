@@ -1,0 +1,49 @@
+
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+    background-color: #f5f5f5;
+}
+
+/* Style the heading */
+.text h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the introduction text */
+.text p.intro {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style the section headings */
+.text h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style the list items */
+.text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style the conclusion */
+.text p.conclusion {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}

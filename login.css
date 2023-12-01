@@ -1,0 +1,18 @@
+.form{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 9%;
+    padding: 20px;
+    text-align: center;
+}
+.form{
+    background-color: rgb(218, 183, 140);
+}
+
+body{
+    background-color: rgba(65, 105, 225, 0.74);
+}
+.log{
+    color: white;
+    margin-top: 40px;
+}
